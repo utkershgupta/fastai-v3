@@ -14,7 +14,7 @@ pickle.load = partial(pickle.load, encoding="latin1")
 pickle.Unpickler = partial(pickle.Unpickler, encoding="latin1")
 model = torch.load(model_file, map_location=lambda storage, loc: storage, pickle_module=pickle
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1-pQHp5iT5BiuyBchBq0yBYQIzmsM9is9'
+export_file_url = 'https://drive.google.com/uc?export=download&id=153EV3J2xWXhUiEMOIRvhIumy9tNTBoxc'
 export_file_name = 'export.pkl'
 
 classes=['Lion','Tiger','PetCat']
