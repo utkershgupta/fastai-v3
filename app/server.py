@@ -11,7 +11,7 @@ from starlette.staticfiles import StaticFiles
 from functools import partial
 
 
-export_file_url = 'https://www.dropbox.com/s/58eombd1axal26q/stage-2.pth?dl=1'
+export_file_url = 'https://www.dropbox.com/s/nja844sc0tbrghf/export.pkl?dl=1'
 export_file_name = 'export.pkl'
 
 classes=['Lion','Tiger','PetCat']
